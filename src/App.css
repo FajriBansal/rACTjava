@@ -1,0 +1,87 @@
+.Parentbox {
+    width: 80;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    ;
+}
+
+.foto {
+    width: 50%;
+    height: 700px;
+    background: red;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+}
+
+.deskripsi {
+    width: 40%;
+    overflow: left;
+    float: left;
+    margin-left: 30px;
+}
+
+.deskripsi .info {
+    line-height: 1.8;
+    color: rgb(18, 11, 49);
+}
+
+.deskripsi .title {
+    margin: 0;
+}
+
+.deskripsi .cate {
+    color: #aceab2;
+}
+
+.deskripsi .a {
+    margin-top: 20px;
+    color: antiquewhite;
+    font-weight: 500;
+    background: rgb(255, 159, 159);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: all 0.8s;
+}
+
+.deskripsi a:hover {
+    color: #ffff;
+    background: rgb(221, 135, 135);
+    transition: all 0.8s;
+}
+.reviewbox{
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.reviewbox h2{
+    margin-top: 50px;
+}
+.reviewbox img{
+    width: 80px;
+    height: 80px;
+    background: #b1b1b1;
+    border-radius: 11px;
+    float: left;
+    margin-right: 16px;
+}
+.reviewbox .user h3{
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+.reviewbox .user p h3{
+    margin: 0;
+}
+.reviewbox .item{
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 24px;
+
+}
